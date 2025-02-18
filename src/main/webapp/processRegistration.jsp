@@ -1,29 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="java.sql.*" %>
-<%@ page import="java.security.MessageDigest" %>
-<%@ page import="java.util.regex.Pattern" %>
-<%@ page import="javax.xml.bind.DatatypeConverter" %>
-
-<%!
-    // Validation methods
-    private boolean isValidEmail(String email) {
-        return Pattern.compile("^[A-Za-z0-9+_.-]+@(.+)$").matcher(email).matches();
-    }
-    
-    private boolean isValidPhone(String phone) {
-        return Pattern.compile("^\\d{10}$").matcher(phone).matches();
-    }
-    
-    private String hashPassword(String password) throws Exception {
-        MessageDigest md = MessageDigest.getInstance("SHA-256");
-        byte[] digest = md.digest(password.getBytes("UTF-8"));
-        return DatatypeConverter.printHexBinary(digest);
-    }
-%>
-
 <%
     try {
-        // Get parameters with XSS prevention
         String username = request.getParameter("username").trim();
         String email = request.getParameter("email").trim().toLowerCase();
         String password = request.getParameter("password");
@@ -33,7 +9,6 @@
         String gender = request.getParameter("gender");
         String occupation = request.getParameter("occupation").trim();
 
-        // Validation
         if(username == null || username.length() < 3) {
             response.sendRedirect("register.jsp?error=invalid_username");
             return;
@@ -60,13 +35,7 @@
             return;
         }
 
-        // Database connection with proper resource management
-        Class.forName("com.mysql.jdbc.Driver");
-        try (Connection conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/eduverse?useSSL=false",
-                "root", "password")) {
-
-            // Check if email already exists
+        try (Connection conn = getConnection()) {
             String checkEmail = "SELECT id FROM users WHERE email = ?";
             try (PreparedStatement checkStmt = conn.prepareStatement(checkEmail)) {
                 checkStmt.setString(1, email);
@@ -77,7 +46,6 @@
                 }
             }
 
-            // Insert new user
             String query = "INSERT INTO users (username, email, password, phone, address, age, gender, occupation, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, NOW())";
             try (PreparedStatement pstmt = conn.prepareStatement(query)) {
                 pstmt.setString(1, username);
