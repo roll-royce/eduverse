@@ -1,4 +1,3 @@
-<!-- src/main/webapp/login.jsp -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -24,7 +23,7 @@
         <div class="row justify-content-center">
             <div class="col-md-6 form-container">
                 <h2 class="text-center">Login</h2>
-                <form action="admin.jsp" method="post">
+                <form action="processLogin.jsp" method="post">
                     <div class="form-group">
                         <label for="loginEmail">Email address</label>
                         <input type="email" class="form-control" id="loginEmail" name="email" placeholder="Enter email" required>
