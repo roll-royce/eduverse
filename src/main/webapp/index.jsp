@@ -12,7 +12,7 @@
 
     <style>
       body {
-        background: url('https://example.com/background-image.jpg') no-repeat center center fixed;
+        background: url('https://wallpaperaccess.com/full/1801075.jpg') no-repeat center center fixed;
         background-size: cover;
       }
       .form-container {
