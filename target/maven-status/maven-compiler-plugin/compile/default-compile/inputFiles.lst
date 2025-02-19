@@ -1,6 +1,7 @@
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\dao\BaseDAO.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\dao\BookDAO.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\dao\CartDAO.java
+C:\Users\Yashv\eduverse\src\main\java\com\eduverse\dao\impl\BaseDAOImpl.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\dao\impl\BookDAOImpl.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\dao\impl\CartDAOImpl.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\dao\impl\UserDAOImpl.java
@@ -11,3 +12,6 @@ C:\Users\Yashv\eduverse\src\main\java\com\eduverse\model\CartItem.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\model\Purchase.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\model\User.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\util\DatabaseUtil.java
+C:\Users\Yashv\eduverse\src\main\java\com\eduverse\util\PasswordUtil.java
+C:\Users\Yashv\eduverse\src\main\java\com\eduverse\util\TestDataHelper.java
+C:\Users\Yashv\eduverse\src\main\java\com\eduverse\util\TransactionManager.java
