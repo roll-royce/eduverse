@@ -3,6 +3,7 @@ com\eduverse\dao\impl\CartDAOImpl.class
 com\eduverse\dao\BookDAO.class
 com\eduverse\util\TransactionManager.class
 com\eduverse\util\DatabaseUtil.class
+com\eduverse\util\ValidationUtil.class
 com\eduverse\model\User.class
 com\eduverse\model\CartItem.class
 com\eduverse\util\PasswordUtil.class
@@ -10,6 +11,7 @@ com\eduverse\dao\UserDAO.class
 com\eduverse\util\TestDataHelper.class
 com\eduverse\model\Book.class
 com\eduverse\model\BookRating.class
+com\eduverse\servlet\UserRegistrationServlet.class
 com\eduverse\dao\BaseDAO.class
 com\eduverse\model\Purchase.class
 com\eduverse\dao\CartDAO.class

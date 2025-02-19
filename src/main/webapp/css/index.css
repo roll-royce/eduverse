@@ -1,0 +1,75 @@
+.hero-section {
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    padding: 6rem 0;
+    color: white;
+    border-radius: 0 0 2rem 2rem;
+    margin-bottom: 4rem;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.book-card {
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card .card-body {
+    padding: 1.5rem;
+}
+
+.book-card .card-title {
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+.book-card .price-tag {
+    color: #10b981;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.category-badge {
+    background-color: #e2e8f0;
+    color: #475569;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+}
+
+.footer {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #4f46e5 !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #4b5563 !important;
+}
+
+.nav-link:hover {
+    color: #4f46e5 !important;
+}

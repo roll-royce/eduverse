@@ -1,0 +1,165 @@
+<display-name>Eduverse Web Application</display-name>
+
+<!-- Context Parameters -->
+<context-param>
+    <param-name>dbUrl</param-name>
+    <param-value>jdbc:mysql://localhost:3306/eduverse</param-value>
+</context-param>
+<context-param>
+    <param-name>dbUser</param-name>
+    <param-value>pie69</param-value>
+</context-param>
+<context-param>
+    <param-name>dbPassword</param-name>
+    <param-value>pie69</param-value>
+</context-param>
+
+<!-- Welcome File List -->
+<welcome-file-list>
+    <welcome-file>/jsp/index.jsp</welcome-file>
+</welcome-file-list>
+
+<!-- Servlet Configurations -->
+<servlet>
+    <servlet-name>BookServlet</servlet-name>
+    <servlet-class>com.eduverse.servlet.BookServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+</servlet>
+<servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.eduverse.servlet.UserServlet</servlet-class>
+    <load-on-startup>2</load-on-startup>
+</servlet>
+<servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>com.eduverse.servlet.CartServlet</servlet-class>
+    <load-on-startup>3</load-on-startup>
+</servlet>
+
+<!-- Servlet Mappings -->
+<servlet-mapping>
+    <servlet-name>BookServlet</servlet-name>
+    <url-pattern>/books/*</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/users/*</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/cart/*</url-pattern>
+</servlet-mapping>
+
+<!-- Filters -->
+<filter>
+    <filter-name>AuthenticationFilter</filter-name>
+    <filter-class>com.eduverse.filter.AuthenticationFilter</filter-class>
+</filter>
+<filter>
+    <filter-name>SecurityHeadersFilter</filter-name>
+    <filter-class>com.eduverse.filter.SecurityHeadersFilter</filter-class>
+</filter>
+
+<!-- Filter Mappings -->
+<filter-mapping>
+    <filter-name>SecurityHeadersFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+<filter-mapping>
+    <filter-name>AuthenticationFilter</filter-name>
+    <url-pattern>/admin/*</url-pattern>
+    <url-pattern>/cart/*</url-pattern>
+    <url-pattern>/profile/*</url-pattern>
+</filter-mapping>
+
+<!-- Security Constraints -->
+<security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Admin Area</web-resource-name>
+        <description>Protected admin pages</description>
+        <url-pattern>/admin/*</url-pattern>
+        <http-method>GET</http-method>
+        <http-method>POST</http-method>
+    </web-resource-collection>
+    <auth-constraint>
+        <role-name>admin</role-name>
+    </auth-constraint>
+    <user-data-constraint>
+        <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
+</security-constraint>
+
+<security-constraint>
+    <web-resource-collection>
+        <web-resource-name>User Area</web-resource-name>
+        <description>Protected user pages</description>
+        <url-pattern>/profile/*</url-pattern>
+        <url-pattern>/cart/*</url-pattern>
+        <http-method>GET</http-method>
+        <http-method>POST</http-method>
+    </web-resource-collection>
+    <auth-constraint>
+        <role-name>user</role-name>
+        <role-name>admin</role-name>
+    </auth-constraint>
+    <user-data-constraint>
+        <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
+</security-constraint>
+
+<!-- Login Configuration -->
+<login-config>
+    <auth-method>FORM</auth-method>
+    <realm-name>EduverseRealm</realm-name>
+    <form-login-config>
+        <form-login-page>/jsp/login.jsp</form-login-page>
+        <form-error-page>/jsp/login.jsp?error=1</form-error-page>
+    </form-login-config>
+</login-config>
+
+<!-- Security Roles -->
+<security-role>
+    <role-name>admin</role-name>
+</security-role>
+<security-role>
+    <role-name>user</role-name>
+</security-role>
+
+<!-- Session Configuration -->
+<session-config>
+    <session-timeout>30</session-timeout>
+    <cookie-config>
+        <http-only>true</http-only>
+        <secure>true</secure>
+        <same-site>Strict</same-site>
+    </cookie-config>
+    <tracking-mode>COOKIE</tracking-mode>
+</session-config>
+
+<!-- Error Pages -->
+<error-page>
+    <error-code>404</error-code>
+    <location>/jsp/error404.jsp</location>
+</error-page>
+<error-page>
+    <error-code>500</error-code>
+    <location>/jsp/error500.jsp</location>
+</error-page>
+    <error-page>
+        <error-code>403</error-code>
+        <location>/jsp/error/403.jsp</location>
+    </error-page>
+    <error-page>
+        <exception-type>java.lang.Exception</exception-type>
+        <location>/jsp/error/500.jsp</location>
+    </error-page>
+
+<!-- MIME Mappings -->
+<mime-mapping>
+    <extension>pdf</extension>
+    <mime-type>application/pdf</mime-type>
+</mime-mapping>
+<mime-mapping>
+    <extension>epub</extension>
+    <mime-type>application/epub+zip</mime-type>
+</mime-mapping>
