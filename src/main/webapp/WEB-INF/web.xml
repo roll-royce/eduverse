@@ -40,4 +40,31 @@
   <session-config>
     <session-timeout>30</session-timeout>
   </session-config>
+
+  <!-- Security Constraints -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Protected Area</web-resource-name>
+      <url-pattern>/admin.jsp</url-pattern>
+      <url-pattern>/editBook.jsp</url-pattern>
+      <url-pattern>/editUser.jsp</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>admin</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <!-- Login Configuration -->
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <form-login-config>
+      <form-login-page>/login.jsp</form-login-page>
+      <form-error-page>/login.jsp?error=1</form-error-page>
+    </form-login-config>
+  </login-config>
+
+  <!-- Security Roles -->
+  <security-role>
+    <role-name>admin</role-name>
+  </security-role>
 </web-app>
