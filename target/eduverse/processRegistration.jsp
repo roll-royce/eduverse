@@ -13,8 +13,26 @@
     String username = request.getParameter("username");
     String email = request.getParameter("email");
     String password = request.getParameter("password");
+    String phone = request.getParameter("phone");
+    String address = request.getParameter("address");
+    String ageStr = request.getParameter("age");
+    String gender = request.getParameter("gender");
+    String occupation = request.getParameter("occupation");
+
+    if (username == null || email == null || password == null || phone == null || address == null || ageStr == null || gender == null || occupation == null) {
+        response.sendRedirect("register.jsp?error=missing_fields");
+        return;
+    }
+
+    int age;
+    try {
+        age = Integer.parseInt(ageStr);
+    } catch (NumberFormatException e) {
+        response.sendRedirect("register.jsp?error=invalid_age");
+        return;
+    }
+
     String hashedPassword = PasswordUtil.hashPassword(password);
-    // Other parameters...
 
     try (Connection conn = getConnection()) {
         String query = "INSERT INTO users (username, email, password, phone, address, age, gender, occupation, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, NOW())";
@@ -22,7 +40,11 @@
             pstmt.setString(1, username);
             pstmt.setString(2, email);
             pstmt.setString(3, hashedPassword);
-            // Other parameters...
+            pstmt.setString(4, phone);
+            pstmt.setString(5, address);
+            pstmt.setInt(6, age);
+            pstmt.setString(7, gender);
+            pstmt.setString(8, occupation);
 
             int result = pstmt.executeUpdate();
             if(result > 0) {

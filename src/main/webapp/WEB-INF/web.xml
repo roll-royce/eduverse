@@ -12,6 +12,15 @@
 
   <!-- Servlet Mappings -->
   <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.example.eduverse.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
     <servlet-name>jsp</servlet-name>
     <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
     <init-param>
