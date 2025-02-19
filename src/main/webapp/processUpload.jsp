@@ -1,4 +1,3 @@
-<!-- filepath: /c:/Users/Yashv/eduverse/src/main/webapp/processUpload.jsp -->
 <%@ page import="java.sql.*" %>
 <%@ page import="java.io.*" %>
 <%@ page import="org.apache.commons.fileupload.*" %>
@@ -9,7 +8,7 @@
 <%!
     private Connection getConnection() throws Exception {
         Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-        return DriverManager.getConnection("jdbc:ucanaccess://C:/path/to/your/database.accdb");
+        return DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Yashv/OneDrive/Desktop/eduverse.accdb");
     }
 %>
 
