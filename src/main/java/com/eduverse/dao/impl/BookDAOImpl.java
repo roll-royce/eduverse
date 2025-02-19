@@ -17,7 +17,8 @@ import com.eduverse.model.Book;
 import com.eduverse.util.DatabaseUtil;
 
 public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
-    
+    private final Logger logger = Logger.getLogger(getClass().getName());
+
     @Override
     public Book findById(int id) throws Exception {
         String sql = "SELECT * FROM books WHERE id = ?";
@@ -49,14 +50,14 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
     @Override
     public boolean save(Book book) throws Exception {
         String sql = "INSERT INTO books (title, author, description, price, cover_image, " +
-                    "file_path, category, language, format, pages, publisher, publication_date, " +
-                    "isbn, user_id, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-        
+                     "file_path, category, language, format, pages, publisher, publication_date, " +
+                     "isbn, user_id, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
         try (Connection conn = DatabaseUtil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
             setBookParameters(stmt, book);
             int affectedRows = stmt.executeUpdate();
-            
+
             if (affectedRows > 0) {
                 try (ResultSet generatedKeys = stmt.getGeneratedKeys()) {
                     if (generatedKeys.next()) {
@@ -72,9 +73,9 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
     @Override
     public boolean update(Book book) throws Exception {
         String sql = "UPDATE books SET title=?, author=?, description=?, price=?, cover_image=?, " +
-                    "file_path=?, category=?, language=?, format=?, pages=?, publisher=?, " +
-                    "publication_date=?, isbn=?, status=? WHERE id=?";
-        
+                     "file_path=?, category=?, language=?, format=?, pages=?, publisher=?, " +
+                     "publication_date=?, isbn=?, status=? WHERE id=?";
+
         try (Connection conn = DatabaseUtil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             setBookParameters(stmt, book);
@@ -82,6 +83,7 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
             return stmt.executeUpdate() > 0;
         }
     }
+
     @Override
     public boolean delete(int id) throws Exception {
         String sql = "UPDATE books SET status='DELETED' WHERE id=?";
@@ -155,7 +157,7 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
         book.setPublisher(rs.getString("publisher"));
         book.setPublicationDate(rs.getDate("publication_date"));
         book.setIsbn(rs.getString("isbn"));
-        book.setUserId(rs.getInt("user_id"));
+        book.setUser Id(rs.getInt("user_id"));
         book.setStatus(rs.getString("status"));
         book.setCreatedAt(rs.getTimestamp("created_at"));
         book.setUpdatedAt(rs.getTimestamp("updated_at"));
@@ -177,7 +179,7 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
         stmt.setString(11, book.getPublisher());
         stmt.setDate(12, book.getPublicationDate());
         stmt.setString(13, book.getIsbn());
-        stmt.setInt(14, book.getUserId());
+        stmt.setInt(14, book.getUser Id());
         stmt.setString(15, book.getStatus());
     }
 
@@ -185,7 +187,7 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
     public List<Book> searchBooks(String query) throws Exception {
         List<Book> books = new ArrayList<>();
         String sql = "SELECT * FROM books WHERE status = 'ACTIVE' AND " +
-                    "(title LIKE ? OR author LIKE ? OR description LIKE ?)";
+                     "(title LIKE ? OR author LIKE ? OR description LIKE ?)";
         try (Connection conn = DatabaseUtil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             String searchPattern = "%" + query + "%";
@@ -204,7 +206,7 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
     public List<Book> getRecentBooks(int limit) throws Exception {
         List<Book> books = new ArrayList<>();
         String sql = "SELECT * FROM books WHERE status = 'ACTIVE' " +
-                    "ORDER BY created_at DESC LIMIT ?";
+                     "ORDER BY created_at DESC LIMIT ?";
         try (Connection conn = DatabaseUtil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setInt(1, limit);
@@ -215,15 +217,16 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
         }
         return books;
     }
+
     @Override
     public List<Book> getFeaturedBooks(int limit) throws Exception {
         List<Book> books = new ArrayList<>();
         String sql = "SELECT b.*, COUNT(p.id) as purchase_count " +
-                    "FROM books b " +
-                    "LEFT JOIN purchases p ON b.id = p.book_id " +
-                    "WHERE b.status = 'ACTIVE' " +
-                    "GROUP BY b.id " +
-                    "ORDER BY purchase_count DESC LIMIT ?";
+                     "FROM books b " +
+                     "LEFT JOIN purchases p ON b.id = p.book_id " +
+                     "WHERE b.status = 'ACTIVE' " +
+                     "GROUP BY b.id " +
+                     "ORDER BY purchase_count DESC LIMIT ?";
         try (Connection conn = DatabaseUtil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setInt(1, limit);
@@ -239,11 +242,11 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
     public List<Book> getBestsellingBooks(int limit) throws Exception {
         List<Book> books = new ArrayList<>();
         String sql = "SELECT b.*, COUNT(p.id) as sales_count " +
-                    "FROM books b " +
-                    "LEFT JOIN purchases p ON b.id = p.book_id " +
-                    "WHERE b.status = 'ACTIVE' AND p.payment_status = 'COMPLETED' " +
-                    "GROUP BY b.id " +
-                    "ORDER BY sales_count DESC LIMIT ?";
+                     "FROM books b " +
+                     "LEFT JOIN purchases p ON b.id = p.book_id " +
+                     "WHERE b.status = 'ACTIVE' AND p.payment_status = 'COMPLETED' " +
+                     "GROUP BY b.id " +
+                     "ORDER BY sales_count DESC LIMIT ?";
         try (Connection conn = DatabaseUtil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setInt(1, limit);
@@ -256,7 +259,7 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
     }
 
     @Override
-    public List<Book> getBooksByUser(int userId) throws Exception {
+    public List<Book> getBooksByUser (int userId) throws Exception {
         List<Book> books = new ArrayList<>();
         String sql = "SELECT * FROM books WHERE user_id = ? AND status != 'DELETED'";
         try (Connection conn = DatabaseUtil.getConnection();
@@ -290,6 +293,7 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
             return rs.next() ? rs.getInt(1) : 0;
         }
     }
+
     @Override
     public List<String> getAllCategories() throws Exception {
         List<String> categories = new ArrayList<>();
@@ -308,10 +312,10 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
     public List<String> getPopularCategories(int limit) throws Exception {
         List<String> categories = new ArrayList<>();
         String sql = "SELECT b.category, COUNT(*) as book_count " +
-                    "FROM books b " +
-                    "WHERE b.status = 'ACTIVE' " +
-                    "GROUP BY b.category " +
-                    "ORDER BY book_count DESC LIMIT ?";
+                     "FROM books b " +
+                     "WHERE b.status = 'ACTIVE' " +
+                     "GROUP BY b.category " +
+                     "ORDER BY book_count DESC LIMIT ?";
         try (Connection conn = DatabaseUtil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setInt(1, limit);
@@ -335,7 +339,7 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
     }
 
     @Override
-    public boolean isBookOwnedByUser(int bookId, int userId) throws Exception {
+    public boolean isBookOwnedByUser (int bookId, int userId) throws Exception {
         String sql = "SELECT COUNT(*) FROM books WHERE id = ? AND user_id = ?";
         try (Connection conn = DatabaseUtil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
@@ -392,12 +396,13 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
             }
         }
     }
+
     @Override
     public List<Book> getPurchasedBooks(int userId) throws Exception {
         List<Book> books = new ArrayList<>();
         String sql = "SELECT b.* FROM books b " +
-                    "INNER JOIN purchases p ON b.id = p.book_id " +
-                    "WHERE p.user_id = ? AND p.payment_status = 'COMPLETED'";
+                     "INNER JOIN purchases p ON b.id = p.book_id " +
+                     "WHERE p.user_id = ? AND p.payment_status = 'COMPLETED'";
         try (Connection conn = DatabaseUtil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setInt(1, userId);
@@ -453,59 +458,45 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
     }
 
     // Additional utility methods for error handling and validation
-    private void logSQLError(String method, String sql, Exception e) {
-        Logger logger = Logger.getLogger(BookDAOImpl.class.getName());
-        logger.severe("Error in " + method + ": " + e.getMessage());
-        logger.severe("SQL: " + sql);
+    @Override
+    protected void logSQLError(String method, String sql, Exception e) {
+        logger.log(Level.SEVERE, "Error in {0}: {1}", new Object[]{method, e.getMessage()});
+        logger.log(Level.SEVERE, "SQL: {0}", sql);
         logger.log(Level.SEVERE, "Stack trace:", e);
     }
 
-    private void validateBookData(Book book) throws IllegalArgumentException {
-        if (book == null) {
-            throw new IllegalArgumentException("Book cannot be null");
+    @Override
+    protected void beginTransaction(Connection conn) throws SQLException {
+        if (conn != null) {
+            conn.setAutoCommit(false);
         }
-        if (StringUtils.isBlank(book.getTitle())) {
-            throw new IllegalArgumentException("Book title cannot be empty");
-        }
-        if (StringUtils.isBlank(book.getAuthor())) {
-            throw new IllegalArgumentException("Book author cannot be empty");
-        }
-        if (book.getPrice() < 0) {
-            throw new IllegalArgumentException("Book price cannot be negative");
-        }
-        if (StringUtils.isBlank(book.getFilePath())) {
-            throw new IllegalArgumentException("Book file path cannot be empty");
-        }
-    }
-
-    private boolean verifyBookExists(Connection conn, int bookId) throws SQLException {
-        String sql = "SELECT COUNT(*) FROM books WHERE id = ? AND status != 'DELETED'";
-        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-            stmt.setInt(1, bookId);
-            ResultSet rs = stmt.executeQuery();
-            return rs.next() && rs.getInt(1) > 0;
-        }
-    }
-
-    private void beginTransaction(Connection conn) throws SQLException {
-        conn.setAutoCommit(false);
-    }
-
-    private void commitTransaction(Connection conn) throws SQLException {
-        conn.commit();
-    }
-
-    private void rollbackTransaction(Connection conn) throws SQLException {
-        conn.rollback();
-    }
-
-    private void endTransaction(Connection conn) throws SQLException {
-        conn.setAutoCommit(true);
     }
 
     @Override
+    protected void commitTransaction(Connection conn) throws SQLException {
+        if (conn != null) {
+            conn.commit();
+        }
+    }
+
+    @Override
+    protected void rollbackTransaction(Connection conn) throws SQLException {
+        if (conn != null) {
+            conn.rollback();
+        }
+    }
+
+    @Override
+    protected void endTransaction(Connection conn) throws SQLException {
+        if (conn != null) {
+            conn.setAutoCommit(true);
+        }
+    }
+
+    // Advanced search method
+    @Override
     public List<Book> advancedSearch(String title, String author, String category, 
-                                   Double minPrice, Double maxPrice, String language) throws Exception {
+                                      Double minPrice, Double maxPrice, String language) throws Exception {
         List<Book> books = new ArrayList<>();
         StringBuilder sql = new StringBuilder("SELECT * FROM books WHERE status = 'ACTIVE'");
         List<Object> params = new ArrayList<>();
