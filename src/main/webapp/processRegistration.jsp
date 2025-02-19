@@ -15,9 +15,23 @@
     String password = request.getParameter("password");
     String phone = request.getParameter("phone");
     String address = request.getParameter("address");
-    int age = Integer.parseInt(request.getParameter("age"));
+    String ageStr = request.getParameter("age");
     String gender = request.getParameter("gender");
     String occupation = request.getParameter("occupation");
+
+    if (username == null || email == null || password == null || phone == null || address == null || ageStr == null || gender == null || occupation == null) {
+        response.sendRedirect("register.jsp?error=missing_fields");
+        return;
+    }
+
+    int age;
+    try {
+        age = Integer.parseInt(ageStr);
+    } catch (NumberFormatException e) {
+        response.sendRedirect("register.jsp?error=invalid_age");
+        return;
+    }
+
     String hashedPassword = PasswordUtil.hashPassword(password);
 
     try (Connection conn = getConnection()) {
