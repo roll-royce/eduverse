@@ -6,77 +6,38 @@ public class CartItem {
     private int id;
     private int userId;
     private int bookId;
-    private Timestamp addedAt;
-    
-    // Additional fields for cart display
-    private Book book;
-    private double totalPrice;
+    private int quantity;
+    private String status;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+    private String bookTitle;    // For join queries
+    private double bookPrice;    // For join queries
 
-    // Getters
+    // Getters and Setters
     public int getId() { return id; }
-    public int getUserId() { return userId; }
-    public int getBookId() { return bookId; }
-    public Timestamp getAddedAt() { return addedAt; }
-    public Book getBook() { return book; }
-    public double getTotalPrice() { return totalPrice; }
-
-    // Setters
     public void setId(int id) { this.id = id; }
+
+    public int getUserId() { return userId; }
     public void setUserId(int userId) { this.userId = userId; }
+
+    public int getBookId() { return bookId; }
     public void setBookId(int bookId) { this.bookId = bookId; }
-    public void setAddedAt(Timestamp addedAt) { this.addedAt = addedAt; }
-    public void setBook(Book book) { 
-        this.book = book;
-        if(book != null) {
-            this.totalPrice = book.getPrice();
-        }
-    }
-    public void setTotalPrice(double totalPrice) { this.totalPrice = totalPrice; }
 
-    // Constructors
-    public CartItem() {}
+    public int getQuantity() { return quantity; }
+    public void setQuantity(int quantity) { this.quantity = quantity; }
 
-    public CartItem(int userId, int bookId) {
-        this.userId = userId;
-        this.bookId = bookId;
-    }
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
 
-    public CartItem(int userId, Book book) {
-        this.userId = userId;
-        this.bookId = book.getId();
-        this.book = book;
-        this.totalPrice = book.getPrice();
-    }
+    public Timestamp getCreatedAt() { return createdAt; }
+    public void setCreatedAt(Timestamp createdAt) { this.createdAt = createdAt; }
 
-    @Override
-    public String toString() {
-        return "CartItem{" +
-                "id=" + id +
-                ", userId=" + userId +
-                ", bookId=" + bookId +
-                ", bookTitle='" + (book != null ? book.getTitle() : "N/A") + '\'' +
-                ", price=" + totalPrice +
-                '}';
-    }
+    public Timestamp getUpdatedAt() { return updatedAt; }
+    public void setUpdatedAt(Timestamp updatedAt) { this.updatedAt = updatedAt; }
 
-    // Utility methods
-    public boolean hasBook() {
-        return book != null;
-    }
+    public String getBookTitle() { return bookTitle; }
+    public void setBookTitle(String bookTitle) { this.bookTitle = bookTitle; }
 
-    public String getBookTitle() {
-        return book != null ? book.getTitle() : "Unknown Book";
-    }
-
-    public String getBookAuthor() {
-        return book != null ? book.getAuthor() : "Unknown Author";
-    }
-
-    public String getFormattedPrice() {
-        return String.format("₹%.2f", totalPrice);
-    }
-
-    public String getFormattedDate() {
-        return addedAt != null ? addedAt.toString() : "N/A";
-    }
+    public double getBookPrice() { return bookPrice; }
+    public void setBookPrice(double bookPrice) { this.bookPrice = bookPrice; }
 }

@@ -8,7 +8,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -17,7 +16,6 @@ import com.eduverse.model.Book;
 import com.eduverse.util.DatabaseUtil;
 
 public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
-    private final Logger logger = Logger.getLogger(getClass().getName());
 
     @Override
     public Book findById(int id) throws Exception {
@@ -157,7 +155,7 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
         book.setPublisher(rs.getString("publisher"));
         book.setPublicationDate(rs.getDate("publication_date"));
         book.setIsbn(rs.getString("isbn"));
-        book.setUser Id(rs.getInt("user_id"));
+        book.setUserId(rs.getInt("user_id"));
         book.setStatus(rs.getString("status"));
         book.setCreatedAt(rs.getTimestamp("created_at"));
         book.setUpdatedAt(rs.getTimestamp("updated_at"));
@@ -179,7 +177,7 @@ public class BookDAOImpl extends BaseDAOImpl implements BookDAO {
         stmt.setString(11, book.getPublisher());
         stmt.setDate(12, book.getPublicationDate());
         stmt.setString(13, book.getIsbn());
-        stmt.setInt(14, book.getUser Id());
+        stmt.setInt(14, book.getUserId());
         stmt.setString(15, book.getStatus());
     }
 

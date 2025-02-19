@@ -6,7 +6,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public abstract class BaseDAOImpl {
-    protected final Logger logger = Logger.getLogger(getClass().getName());
+    protected static final Logger logger = Logger.getLogger(BaseDAOImpl.class.getName());
 
     protected void logSQLError(String method, String sql, Exception e) {
         logger.log(Level.SEVERE, "Error in {0}: {1}", new Object[]{method, e.getMessage()});

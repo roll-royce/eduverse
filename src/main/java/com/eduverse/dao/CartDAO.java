@@ -4,6 +4,9 @@ import java.util.List;
 
 import com.eduverse.model.CartItem;
 
+/**
+ * Interface for cart operations in the e-commerce system.
+ */
 public interface CartDAO extends BaseDAO<CartItem> {
     // User cart operations
     List<CartItem> findByUserId(int userId) throws Exception;
