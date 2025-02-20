@@ -24,20 +24,57 @@
 
     <!-- Welcome File List -->
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>jsp/index.jsp</welcome-file>
     </welcome-file-list>
 
-    <!-- Basic Servlet Configuration -->
+    <!-- Servlet Configurations -->
     <servlet>
         <servlet-name>HomeServlet</servlet-name>
         <servlet-class>com.eduverse.servlet.HomeServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>com.eduverse.servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BookServlet</servlet-name>
+        <servlet-class>com.eduverse.servlet.BookServlet</servlet-class>
+        <multipart-config>
+            <max-file-size>10485760</max-file-size>
+            <max-request-size>20971520</max-request-size>
+            <file-size-threshold>2097152</file-size-threshold>
+        </multipart-config>
+    </servlet>
 
+    <!-- Servlet Mappings -->
     <servlet-mapping>
         <servlet-name>HomeServlet</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/user/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BookServlet</servlet-name>
+        <url-pattern>/books/*</url-pattern>
+    </servlet-mapping>
+
+    <!-- Basic Filter -->
+    <filter>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <filter-class>com.eduverse.filter.CharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 
     <!-- Session Configuration -->
     <session-config>
@@ -51,15 +88,25 @@
     <!-- Error Pages -->
     <error-page>
         <error-code>404</error-code>
-        <location>/error/404.jsp</location>
+        <location>/jsp/error/404.jsp</location>
     </error-page>
     <error-page>
         <error-code>500</error-code>
-        <location>/error/500.jsp</location>
+        <location>/jsp/error/500.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>403</error-code>
+        <location>/jsp/error/403.jsp</location>
     </error-page>
     <error-page>
         <exception-type>java.lang.Exception</exception-type>
-        <location>/error/500.jsp</location>
+        <location>/jsp/error/500.jsp</location>
     </error-page>
+
+    <!-- MIME Mappings -->
+    <mime-mapping>
+        <extension>pdf</extension>
+        <mime-type>application/pdf</mime-type>
+    </mime-mapping>
 
 </web-app>
