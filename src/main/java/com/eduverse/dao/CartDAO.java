@@ -1,15 +1,17 @@
 package com.eduverse.dao;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.eduverse.model.CartItem;
+import com.eduverse.model.Cart; // Ensure that the Cart class exists in this package or update the package name if it is different
 
 /**
  * Interface for cart operations in the e-commerce system.
  */
 public interface CartDAO extends BaseDAO<CartItem> {
     // User cart operations
-    List<CartItem> findByUserId(int userId) throws Exception;
+    Optional<Cart> findByUserId(int userId) throws Exception;
     boolean addToCart(int userId, int bookId) throws Exception;
     boolean removeFromCart(int userId, int bookId) throws Exception;
     boolean clearCart(int userId) throws Exception;

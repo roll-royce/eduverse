@@ -5,8 +5,10 @@ com\eduverse\service\impl\BookServiceImpl.class
 com\eduverse\util\TransactionManager.class
 com\eduverse\service\BookService.class
 com\eduverse\util\DatabaseUtil.class
+com\eduverse\config\DatabaseConfig.class
 com\eduverse\util\ValidationUtil.class
 com\eduverse\service\UserService.class
+com\eduverse\filter\CharacterEncodingFilter.class
 com\eduverse\model\CartItem.class
 com\eduverse\service\impl\CartServiceImpl.class
 com\eduverse\servlet\BookManagementServlet.class
@@ -14,6 +16,7 @@ com\eduverse\servlet\AuthenticationServlet.class
 com\eduverse\util\TestDataHelper.class
 com\eduverse\util\CacheUtil.class
 com\eduverse\service\impl\UserServiceImpl.class
+com\eduverse\servlet\HomeServlet.class
 com\eduverse\service\impl\ReviewServiceImpl.class
 com\eduverse\servlet\UserRegistrationServlet.class
 com\eduverse\model\Purchase.class

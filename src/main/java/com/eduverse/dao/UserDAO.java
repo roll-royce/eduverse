@@ -1,13 +1,14 @@
 package com.eduverse.dao;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.eduverse.model.User;
 
 public interface UserDAO extends BaseDAO<User> {
     // Authentication methods
-    User findByUsername(String username) throws Exception;
-    User findByEmail(String email) throws Exception;
+    Optional<User> findByUsername(String username);
+    Optional<User> findByEmail(String email);
     boolean validateCredentials(String username, String password) throws Exception;
     boolean updatePassword(int userId, String newPassword) throws Exception;
     boolean resetPassword(String email, String resetToken) throws Exception;

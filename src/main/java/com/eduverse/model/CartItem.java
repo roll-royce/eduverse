@@ -1,43 +1,29 @@
 package com.eduverse.model;
 
-import java.sql.Timestamp;
+import java.math.BigDecimal;
 
 public class CartItem {
-    private int id;
-    private int userId;
-    private int bookId;
+    private Long id;
+    private Long bookId;
     private int quantity;
-    private String status;
-    private Timestamp createdAt;
-    private Timestamp updatedAt;
-    private String bookTitle;    // For join queries
-    private double bookPrice;    // For join queries
+    private BigDecimal price;
 
-    // Getters and Setters
-    public int getId() { return id; }
-    public void setId(int id) { this.id = id; }
+    public CartItem(Long bookId, int quantity, BigDecimal price) {
+        this.bookId = bookId;
+        this.quantity = quantity;
+        this.price = price;
+    }
 
-    public int getUserId() { return userId; }
-    public void setUserId(int userId) { this.userId = userId; }
+    // Getters and setters
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
 
-    public int getBookId() { return bookId; }
-    public void setBookId(int bookId) { this.bookId = bookId; }
+    public Long getBookId() { return bookId; }
+    public void setBookId(Long bookId) { this.bookId = bookId; }
 
     public int getQuantity() { return quantity; }
     public void setQuantity(int quantity) { this.quantity = quantity; }
 
-    public String getStatus() { return status; }
-    public void setStatus(String status) { this.status = status; }
-
-    public Timestamp getCreatedAt() { return createdAt; }
-    public void setCreatedAt(Timestamp createdAt) { this.createdAt = createdAt; }
-
-    public Timestamp getUpdatedAt() { return updatedAt; }
-    public void setUpdatedAt(Timestamp updatedAt) { this.updatedAt = updatedAt; }
-
-    public String getBookTitle() { return bookTitle; }
-    public void setBookTitle(String bookTitle) { this.bookTitle = bookTitle; }
-
-    public double getBookPrice() { return bookPrice; }
-    public void setBookPrice(double bookPrice) { this.bookPrice = bookPrice; }
+    public BigDecimal getPrice() { return price; }
+    public void setPrice(BigDecimal price) { this.price = price; }
 }

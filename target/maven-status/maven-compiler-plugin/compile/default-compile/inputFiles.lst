@@ -1,6 +1,7 @@
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\servlet\UserRegistrationServlet.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\util\SecurityUtil.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\util\CacheUtil.java
+C:\Users\Yashv\eduverse\src\main\java\com\eduverse\config\DatabaseConfig.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\util\EmailUtil.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\dao\impl\BookDAOImpl.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\filter\securityFilter.java
@@ -12,12 +13,14 @@ C:\Users\Yashv\eduverse\src\main\java\com\eduverse\servlet\AdminServlet.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\dao\BookDAO.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\dao\impl\UserDAOImpl.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\service\impl\UserServiceImpl.java
+C:\Users\Yashv\eduverse\src\main\java\com\eduverse\servlet\HomeServlet.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\util\ValidationUtil.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\service\ReviewService.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\dao\impl\BaseDAOImpl.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\service\UserService.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\service\impl\BookServiceImpl.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\servlet\PaymentServlet.java
+C:\Users\Yashv\eduverse\src\main\java\com\eduverse\filter\CharacterEncodingFilter.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\model\Book.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\service\impl\CartServiceImpl.java
 C:\Users\Yashv\eduverse\src\main\java\com\eduverse\service\impl\PaymentServiceImpl.java

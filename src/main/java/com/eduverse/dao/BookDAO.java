@@ -15,6 +15,7 @@ public interface BookDAO extends BaseDAO<Book> {
     List<Book> getRecentBooks(int limit) throws Exception;
     List<Book> getFeaturedBooks(int limit) throws Exception;
     List<Book> getBestsellingBooks(int limit) throws Exception;
+    List<Book> findTopSelling(int limit);
     
     // User specific methods
     List<Book> getBooksByUser(int userId) throws Exception;
@@ -45,4 +46,6 @@ public interface BookDAO extends BaseDAO<Book> {
     // Category management
     List<String> getAllCategories() throws Exception;
     List<String> getPopularCategories(int limit) throws Exception;
+
+    List<Book> searchByKeyword(String keyword);
 }
