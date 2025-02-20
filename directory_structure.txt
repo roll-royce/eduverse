@@ -37,353 +37,918 @@ eduverse/
                         HEAD
                         main
         objects/
+            00/
+                39f2b6793856c48e63d18320d65718d2554677
+                bb4fde1d8beafbb58f810f358cf16e4c81bf9c
+            01/
+                1626bb23937e0974886165c7b1b759506d73aa
             02/
+                13073f68ead61642556a0127299000f945ef45
                 a5bb0e1958851719109acd91197ab4dc155ab8
+                ac19bd67d98a80e58c0088cffd9f898d620c26
+                e6c6d4f7c588df4f417baeab62732034c92694
             03/
+                265f51419715b7392d67d59190dba653e63f37
                 f34e58c8ca4e75279cb796ec011db984b5479f
+            04/
+                63e8179223b534ab6f517d0aaf92f37db96fd8
+                9554cdbd84ec5c7e9cd3fd72cdb4a147262442
             05/
                 07ba40575a038c37fe89683661f8d25f4d6aa7
+                5d3803b43ab415df5d3f614e1caec11da73428
             06/
                 ecc3bd164cf304f11c1dba99841ee601a000ec
             07/
+                320d100cf0738d1572fbd7ab73fc5462c1d7d3
+                7ca018f9bbce5dcb23a4dd5f0f560f5f3fc910
                 faa77285efc14ff2cc8cba8091615e591e5cd1
+            08/
+                0c161e73bfd75a2385d7b1503b1b507abbe0e4
+                154bceb460af848c7a22059b2d9701a54b62c0
+                da77d56e9b5400d367bc02fdd75359e0878447
             09/
                 b9c3940ee47cbaf8cd01f16bab98a45a3cb5f6
+                c955c51c30ce6cfc7db6eb89476759018e5b6e
+                d0cea6ed635f799a476e3f705f673744dc5674
+            0a/
+                a1c9fb12cf2b43b8672ecc872bb40615a90667
+                e7a1e107fefb513d43ab237128272b5f73491d
+                f231ee776cb8f42e9599204c1c77bbc1d1b084
             0b/
                 482a951c1bfb367361a934427e12167ac117ad
+                8fa1277e35640dc7870b0691f3b32921af913c
+            0c/
+                6f543fcffc6fb48992d1243b13c2c848f7fc35
+                9247f7ca32269de41dd207c7e27118fdcfadc8
+            0e/
+                53368fb22f2aa3a00afa42cb1f32abfba618e4
+                cbd9f5d5213f482812707d13cc4f0d9b4b7e1e
             10/
                 0cc04b622e702698ca8a02f604a49a99ea3605
+                41288fa1d80d675cd6e3223002c802423bb5a6
             11/
+                10a9bac0c170dfebf8065814a2ddac3dd77ee2
+                6859c8d7e3a49dfcb8ada1477025e0f4e5b76a
                 a48e8a3d1bb5d70ba844d8844910bc54a2a491
                 bba64d2dce931529e99e52eb70236474011f32
+                c7e8851d4fab8e696e8594277f8bc79ecc3cc1
+                ee7d8ceafb748393b934664d0e2bb264ad73e2
+            12/
+                00761fe6f873067d7255e19042e9465ed232d6
+                9c3b34a4af7a9edf146bca912fce4af968ce38
+                c273e8519ed363e1fe5138ca81d01362edf4ef
+                f8ed0f3c00473d9f8cb62849ad7673ab35dbfc
             13/
                 1075f714ce95cc11d23acc6da427b9933d287b
+                3ca42ba2de7f3590b5792e98c6e459b1c79c7f
+                430a5f86a3417463842c34edc2772506ba1799
+                f1c8ade04e1cf3e42f72b613fe480c37e6594e
+            14/
+                290f3bb023338b55b20b44d1c111f2993bc95c
             15/
+                149a0ef431354a4ce4626d74329b8979e94ef5
                 72337d536be0cb0e9893fa1486db9021aa5cbd
                 792e1d5ab281dcff66dc35eb40f6670033021c
                 98fcf9c833119fd99edd7f04fb95b40d3e1b4e
                 a43ee558086fd3f73eed38a50d39e6af30d230
+                db5d771cab01055c74325c9a3ef5c92d0b4c63
             17/
                 16edf6838dd95bd1db709bf35838a80a4f2e16
+                52a240c380481c20693bcda717ac457d3399d2
+                f5a7596ea52fbcddecf7aeaa6852a0aab84df3
+                fcfba226bd268b7dc0ae92f71c9881c1b1717c
             18/
+                1e6f4a193ed4e82a94dd909dfe518201886806
+                5f6fe95efea1078fbf5d3ec52e969eac225867
+                df2ddca137c44a5fc3c3c8cb4a90a41a80ea8e
                 fb2854759fa862daaf62af8f7011e9d1705c1e
             19/
                 178bd57e2f7b74b26abcbd3165f5ade6d56048
+                ee405aebec3fa749c9180f5a095670ae724f6c
+            1b/
+                1677bebf79bc5120d40f215325745fd543c1fa
+                b0a97ea006fd7b461cce370aae738aac21a161
             1c/
                 2b89674130b4a84f68bdcfbdc845c8b37aa94a
                 60dbbb49eea6b756663df07c699222fcece365
+                766dd0517b7a54068fda735f90d7eccb0e5d2f
+                f355af05f0a6c4839f93d16eac8effcd876cce
+                ff236545bda0b1384508747027d6b45850457a
+            1d/
+                c61f9d1541d31aea71eb54e3bd83b930aa96c5
+                e76b12fbf9e7d33d5f663d9dc4a26e24490c72
+            1e/
+                74488a3211f8b0d82355db7a3cbe18919fa2b6
+            1f/
+                49536a23b9880793ed0437b121e54004dd7127
+            20/
+                5cdcd230ac0b06ea8fb1b27480478f32f6f2e8
+            21/
+                396a37cb10a0ae17e8e3a2313f5c2453e1d3ae
+                9a9c7fb8020520b8490e1432bedcd566f2603a
+                a92db1c3a6597ae929216212d4615e416d05c6
             22/
                 5f73be05ab5c3db8992e54710d2292cf7c3b0a
+                755444d36d5059666daf00ec24ea7ab9e11aa3
+                9b45d6211272e4ee19c9668fa1b16c371f7e8a
                 f625640bd9a845a36e925161886c1f9b8d057a
             23/
                 45724c80709256dbb9eced98b1497f8a65fc69
+                b35c108ce322c256c3dfcc47dc8326000be213
             24/
+                994e1c83520f7a1a9b43f309c643fc45d0c066
+                af061de88680d61dfbc095fdaaecf04b606b7d
                 d7dac1c2ebb23462332a4b7d571dd61ce0fe53
+            25/
+                4c7a276bf4af912df656cfba9cc0a0a75b2490
+                6fe87f943a512616d67b98a469219fb970b620
             27/
                 2a72bcfb896a2d9ac76103b547381914e7963f
+                3fa28eb8d2357d47798bafaa29983c4e287ce4
+            28/
+                3a3c72ecb88135f76223a1102006430392f61d
+                8241d681842701b40c0887428c8c65670f29c1
+                84a4b0c15f206bfd85785124b7cb05b1214f39
+                b8d55e21f9896ad2337dfa7aa8c151c7dd9d40
+            29/
+                01eafcdd49305c69a4f5ab0e2d8760053ae017
+                1fae4266f17b2d5ce0b3f75bb33c1d644612e4
+            2a/
+                09d298ff8ca1ea9a76e308e5a61790744e9e25
+                4b0acbb04513ed45145ce498250704d1c9d212
+                8680cc37a44b65f0d422195c74bc55700ffdf5
+                df21e5c2a5b50401c0cc73a2a397cd76d04230
+                f3a99e978f3b51b273e5e32ee388417fa4d6ab
+            2b/
+                678e154dc72413f3ca9030034ce95db837c052
+                7096a7979f59db12efb833e2b8e0592d7d6194
+                e996af1b58817f1037850523ea20c97411f96a
             2c/
                 65ce67d5c2b746e0583e4879c35ed0751b505e
                 9798eb9606bc05522ee082d382b2fd59551c2e
                 a3b0cf5c6e5d6b77aa498b91caba274d15f3d9
+                b43b8647e656e4a14ed1694bfe2cf5696b65bb
                 bb892dbc92d479f50176459794a211828ac678
+                bda4073775f7fe6cf12a8db53b5823bc325f02
+            2d/
+                0dd02f28a24eee73f642852432672b2193cb06
+                15e65ae6c9561cb91864c6c18f5c31c829f660
+                6757e32c0e0e7cf5e4b0ef51d31c91fc5b9385
+                78ff473508ea8fcfe4e6077e7e5d3c7cc47cad
+                892a7ddcea4f404966fb5aa45363bd4300cef6
+                fcb9dab6065716874947c597c5347d64234e8a
             2e/
                 7963d646985dcf6e32c2bf5b03bbdd8379c805
+                a3f7806ea34a07a89ace4df2da48890be3267b
+                b598b0335844c0da4f008e1fbaa9d6e5c7b5b9
             2f/
+                0d3f87a1cefa102d793cf318afe2daed6788a5
+                4d9588224f24b25950b1e6a86c9b65d75805be
                 72b0f470cf8bad6b730770db5c37f881375c38
+                f3ae5f739ab7da464ceccbe480eaeee43357cf
             30/
                 088ca09da7d7598c4cbefb997a9e9f4964a431
+                d841efc4a27bfe256867afb018c8d439b6b5ca
             31/
+                45573ae01aae1b4e1a31ee2047ad904feb3a4e
+                48d6a5bd3fd37c3ddd53e44554480cec8cb069
+                6080f3b56134e8a821a50511b0e831886c9184
+                65ab743dc74e1f862e75163f0b3e99f93c5301
                 c0ac4aa21f6459617aa1a631347a781c540ca5
+                c48d6c0d2f8423c14764fd5dac8bc72af42b43
                 c673372c4394ae0c8fcec546dce427945e0436
+                d55c6ce5cb1cf9b3f2f3185eedd205ce9d79d2
                 deb42df450cb7ad511b3bad84ea4021616db20
             32/
                 8998953ef6de495d58036ed9f2353a6ee2d36b
             33/
+                023a1fcc4b4324c3a5cc0a498f4020c3d95731
                 5ed77192e9c0f1454b878aa23bc314ace33664
             34/
                 c3f5f9ddde803ae3a4a9eb9ea3163f7760d583
+                d5f9a2dcdec6f081cf84b39e4c24f566f21cb9
+            35/
+                5bf810fdf0dc0155acd53c4739758d25a6bf93
+                a5f340e45ae266172715ad7804e01a13947ab5
             36/
                 6f857f84678321414b5ba36c4e97022f0df349
             37/
                 1e6de94b8378225fa7a378c5dae1e1b2632b81
+                89eecbe1cfe01d6d3b9622ff9c1f3642c5c230
+                96afe2bdedd987889e4d1884b2529fa32ece78
+            38/
+                a7724aa83dc56766f3f8c0165d586e42b61839
+                ddf0a6b088b6644108f8dc566494921cebccf2
             39/
+                47538bba74353b69bffefaf2e0ecf68b33ade1
+                5101021979de307343edee0793618e7dfd0db0
                 67852f250f45d33e384ca3a323d139b99efc85
+            3a/
+                45cc26c8174062d0250590702d187dff4b6a69
             3b/
                 0e0ccaa93a28b7b742566d719a20a911ec0919
+                39c456ee2cc33be8d5175fb60469dce3f7b598
+                9d5edc0d06da550a6e2912cb34370289f5251d
+                bb620b9c88258213b3bac9172beb334c1960fd
+            3c/
+                a821560ff9a6cad619691cfeaeecadde2e5bf0
+            3d/
+                1b543f3d07b0aafb5cca8b4d3e68c2b77e4635
+                f4c9f15a33a9954386d5072a1817b753308438
+            3e/
+                2ccbc084c3de4ef93c828b94940a655e540134
             3f/
                 517561456bd8e4906ee85d83596e9a0bb76644
+                966dab827fb89ccd9aecff73edeba43dd9f2ba
             40/
+                0f9fdfeb105a6f65a163b8bd15aafcf07bd010
                 18fc0869173b12420a6f531218447eb92e91a3
+                1d0b38f47e57d54acf590376e5cd123f29e882
+                32dc83797813139ca06c55605fc8acf0d24a3b
                 91b7e70a384b5a892d1b2f1b604ef9a76e9d2d
+                e8395f9d76b740af8b06f6eeb2ccf9f9529318
                 f63a2c0cbabd4950286ba87e4159e32113bf32
             42/
+                119b541d466112ec243d1ef9e988e7b5c8b982
+                3556b598ad0f82315309d94955573e57416ae6
                 78c3b5dd9d5c9bf740a615b1eeaecb20096124
             43/
+                57f5e9963ab0ab4dafcd70a82c35ddfcdc8d64
                 62b49151d7b34ef83b3067a8f9c9f877d72a0e
+            44/
+                cea28bdaacdd759421ddc4930857bbd9b5aac1
+            45/
+                609923e5e6ec94ef165d2f534b4dc627be66be
             46/
+                1a75bff3a6052c01aa46f7128cdc47d9a1ee47
+                733bca5aa937478100ebd585ab4434d3c7e92a
                 b05bc9744773df40cadae75045da3f47ab4c6d
+                d0b21c86a3099865627c503ba88db38e4d0f25
+            48/
+                1968f9aec26f7ba96d58177717b56af373347d
+                896ebb456bea94865e8068e5626572ccaba0fc
             49/
                 33c79b2e1dcc5f1941803915a04f58b1d2cce5
+                432295a2e0917105025aa0e4a5bd9e759935eb
                 61f81e07382eb7a2c963e07285b9d5c4d018c9
+                f8de16efdc39ed132d243e117f060ddd42a113
             4a/
                 5897872b5fcb28a390856c46f0670ee0443e44
+                5b7c31d235c3cae984407510d6de8dae76391a
+                d71c14eeb5e2c474806e8a7d70c673265ebddd
+            4b/
+                14d3d225912fae9137ca4de02365f3edf6a726
+                48c182d6ae37b9017f4d64618ae26b3ecac9a9
+                7144e58d154911c8433a49f0654a2ab449a380
+                81b227684429dd47c7e28f757a57cc6e774ebf
+                f233b78b4aaba1a868191994365662942635d2
             4c/
                 4f8dfa675647b88a90661b1ee78e5a69ee0c81
+                ded4896534afcb1e9323f1ce97f55e5ecc8772
                 ea331e5e0f004fa9ebad7254c2e9cceb26b9e5
                 fcb11129d1d7ed3273dceba46b7ddfe09a995e
+            4d/
+                11cd93b32065dc222a698f388343771e5ed29c
+                434a2a4554815584365348ea2cf00cdfe3d5f9
+                b07c1b0d8e9f93e1687583dc23f1ce26964844
+                f23be5de1dc2255d3bdfc256570a52d076808d
             4e/
                 38c3d5192250c780cf60ed1d7764f0c03963a3
+                508f8077253e590b42dd624f71200c7b308232
+                56da80ddb71dc124075aef81256eeca1cbf9b6
                 853851bafdbe21390062011a18891fbc76a546
+                c9390d258bd7b56df948d8759c474c867900c0
+                dc21fd97cadb2eabc4a3dc3547e16bd5833bbb
                 dff4c7a59448e731b2eff4159a13a8efd4626b
             4f/
                 9dd57564ea3926cdb9fa11ffa6825b7a761a45
                 b5b4b4d9f7a00a88da5103e3eed922b0e06b2e
+            50/
+                6b5af88d90591da7db3251e4af6637f018e357
+                d0885f6b6dd83f503d26861427e69a931e0e71
             51/
                 04302c4f65d3fd1cf2db71388667e2340ae779
+                71b7a422b5f56ba6d600606869e202df1b74b2
             52/
                 0b343f1e958e7041cadcfc77cdb3a3deddc78c
+                718acfeace652799d326c9eb70085529fc8a13
+                b187dd1b11b27b069ab0471631e18709ef9648
             53/
                 f00bebde9e9d6da6072b1ecf84b1e3c37feb08
             54/
                 2e8487d0642524e6d06d4487635e1b82861ca4
+                3d20040f69c044eb135490138f663968ec8ef9
                 3f500753f04bcb58ed1097617394d098dabba7
+                7edb4cc940600ee7116b51b2ce9459cbfbce48
                 9b9791a0ada13a6a4a37f48accd6b34de4ff19
+                9caf1b64364f1a49d3df68d2513f51e5d07050
+            55/
+                1574379a1d3f289b891bceee54024874e03c20
+            56/
+                640b365eb13001a8b16284f7bcb2d16b35cb77
+                7d41cb67fee1764bc9d423bd6d053a6ded6563
+                c4136d1aa68722052847618bf615a3f8ca0e16
+                e7a2b42ee19019a92a33c0c30da38afe6f5121
+                f8b8800593c81eadd7cfdf5f788cdac0157a52
             57/
+                2f9fbb2c66141d84988207daf24bc40250373f
                 761e4073ec70e895c2bb12e159091e42f934fc
+                c1356a477a8602c88a7bbdd28004665c6fe278
             58/
                 182222d84336c715916ab50870fc648ae417d5
+                232ebccfb531e1917bd167548e234d16385572
             5a/
+                177f143f7390e7c25a0741e915bbd51df4af3e
                 2e1d228db56cb7f4ccab6d99a42d146b8eac49
+                2fd40ddcddab6211795e7b3ea85936ce07ab1d
             5b/
+                0458d7ceef26f315f1703972fa975ffbe3d75a
+                11c496731792559e69ffe72c401ef10c22665d
                 2228e698c5c5c597d5e126d8689141003446f9
+                618ae7d0591735fae53b0a6a7e8c1191916381
                 7c92ac4389d5e9e7754633aa8c0a868ff8e6bc
+                9b9f7873928be18f3634fe269b97e2e98f9066
             5c/
                 bbc275d4e5285a58febdc45a5fece85f6b1250
+            5d/
+                44fecaff028071e9484c518bde3fe71d95ebcf
+                e309777b0ed173a8f46ca0dcb6810add355fad
             5e/
+                19a984af61401e12289f510408fe9d23a90411
                 407342e032777c8391fa44bb4a14dd4ec96074
+                608753c1ba465f78481d085a650abf21629e2c
                 b4daa3655a8961e1128c20b840f69a2a54f7da
             5f/
                 afd819ba85f7adaacd210883110ce80299837e
             60/
                 b7e16b78b6f5a0fa23ff9e818ee5268334c183
+            61/
+                1c8639538051412eb9b485ff44749251951447
+                944430e657c0b352877a6a1e26d32bc3a7525a
             62/
                 018d9e0f74e036a4cc1d336f6ec5f53768e0c4
                 52f75abaf268ac2beaa77647941eeea583f65c
                 7252fb51b4431f8940d8b479d08998a2bc2e2e
             63/
                 c3d437be6d992e0f40679d5890b953d3ade512
+                d9b120be35e21aab2d5d106590de35f0ebb834
+            64/
+                52d87d41726f8db0824fdcbfca23f4549433a8
+                d64db44a0d530333e5f4d8c071e4c78aab1166
+            65/
+                8fcd810d2ce4be8f5d194bf562df0d885209a7
+                bff87cb3cf6f9347c0f9944d838469c59a8fbd
+            66/
+                244dbae8ff3440533fb93dd3bda9455d4ebffa
+                44e760b80a670a81c8496aeb2c61e7455642de
+                85f4ac2b6ec9e11175c56e409618228b94f3c3
+            67/
+                35625fdb0f4e235fcf6b181555f00025c88210
+                41ba124e211ae02e8e2de1fe92db70ce16237b
+                56d3428139bd8a3a2ddbf9d296c96f5f8247b5
             68/
+                1471dcc5891a4e4317de5e0994f68de2c0b999
                 63da98273deafdf81aeaf29b8abe747030bc5b
+                73347a8f3404e2f93af06e8fbbed409ccea884
                 79087195d30d58ddf74d22fd30803ae78443ca
+                8b7f10a1d5c18eb58fd0990dbb6da8c8c3df0e
+            69/
+                007cbb79e6672b901e3381cb05c22d142081c6
+                94bb11dc3e90a6c122fde946f3dbde8681e030
+            6a/
+                abba66deef9fc839233aef1b38fc74dab017b0
+            6b/
+                2f43f238f6bd2d970e1d4130d29f8f4f8d1310
             6c/
                 e7b622f5736d5ba25aba8d25b9414feff0d328
             6d/
                 509dbbd5d066c2088cfcdd44490fe8a6d4407c
+                71a0de3d8e1bf47a1a34599955d5b61eba336b
+                fa7ca4261df9e55a2a81c8f0ff0a45892f2915
+            6e/
+                4838f55585531fa0d55b20fd9a373ff39ff146
+                7e17d2b759b336527de335ce0a8e6dae241f25
+                839d3f2b2a4c3b5283e9e5d108d37862fc2323
+                a51481eaaa7803263d03c731ccdd84bee82150
             6f/
                 42b1e9914333a1c214d601bf7c23ebdc68e564
                 b262583d739b56b6d701de3749e1e275fa639a
                 db9b9d954b675ef799a875d63ab9a559b27c9c
             70/
+                13777c4da813125cd9c3e1ad19996a881d0349
+                2a959396b148010145826ba65998528c02b6d4
                 52ba03a45212d8c4ddfaada2c102342304e88b
+                b66e9adc5d92d2b071aefca6efd64fbe0a2a48
                 e468dc210021785b60ef8a18a4fc8a31aa7f2e
                 e8d01c99d122744331d140651bb4011fba4a3d
+                efea5386b7319a59e37dc558535607db972953
             71/
                 2ade58923bfa43a47ed885abf16062306a6b7d
+                92cb216ff365b511cfb030c71284cfcc8e1ed5
                 93845bfa27a397b1ee4a69e6a95b4254fee7ad
+                944ad47a7f5cb6198123559682af7b44311f67
+            73/
+                27691eda87df79d7a984a1d27239ae3d6dc9d0
+                785a233457a3830850d730100f923332a59f30
+                7fbcbfa4b8dfed099df32c31b5ff8b62a5ca17
+                e2be56c4a111cb4939532ceff3869541882ca3
             74/
                 367e5fc3a40735d10992a61585ec6d87e971e0
                 386f7a74c1ce5bc261700d750e2e6361008e29
+                b7710caf625a91005db2c21db667ce628f8c32
+                da583f4f1929a6af8f108a1828ab034c5381d2
                 f499920d9d9df81efa444f0b0d303c618b9d2b
             75/
+                3ded5ceb77720051d8b59e91616c4ec586de5a
                 478189d64931cfb73cbc3d29e94454c0746b40
+                d16fda7351b019e69d694322ccfcf27b9ce432
+            76/
+                04b1ee15861387e55c25c58573c6fc53975804
+                9fc3bab88b3d602ea7223c0472b841499e750d
+                cf09daaa9a7d9bc5e99fa4098698f79c9e3251
+            77/
+                ff8e0d6a7e0b8389356f9697f29faec1dfa6d6
+            78/
+                154978a00830e1ccb5d55117939c37753cf1fc
+                2a5c188d606ca96b5e4eb48de772f4f33cc279
+                59dbe1f526315565bb10aeab1e8f020aaa1b9b
+                9fa12212c3c8d8302e0d0ccfbc5834207c32a8
             79/
+                09f36b65467332b9ae359a4e1a6f96e9cc5788
+                2fc3e44202cca44715314093c959e004239d64
+                4e7ac617c5494ed44e0787dfa19e558756da13
                 8f985216bf865ceeeaff571f9c947382647eab
+                e4254205d4765380d3173ac7761f81cbd2c102
             7a/
+                210063bf98318797b8acdce2c4dd40a637b1c9
                 95b8b136187346c67343c1d015325fa7720e99
+                ade78eb60ce0301b118c469f4dbe3cf2cb565f
+                cdf926e71ff1da1f2584ea636d4c2eaa41463b
                 f68f85e7e4d278b4f489af7541300776a408b8
             7c/
                 954824b87d1455cfdcd503982d0d3f0d9eb46e
                 c1553b17ba2d15d7562b03eda30c8200be2b5f
             7d/
+                2828d9ca139f1b24f83c3ef93f91e0c79a79cd
+                3ce68d25e8b2237c3711145bbbea2c166d4767
+                547a76a6be0d2169f823de298c4d42870b922f
+                8caeb12cf68a9e68aa64a69f022955efa5aa2b
                 d5847391a0ead3de67ca2576cac243c86e76af
+            7e/
+                1f587ce88085bea09ebe31b88e70d873aa22d7
+            7f/
+                0af18287e988ab86f8138e87990cfedf42f662
+                a04182b80b091577393db01fdc628a397db735
+                eb7a87c4ed5caee9efdeb650835e906615a251
+            80/
+                2d1cafb8a2ea509d27e6f6682746dc6995b54a
+                8632084596e162fcfc119452fb201273c56812
             81/
+                9f5eaf09b7ef229338cf16d2d5432159b1316a
+                a39ee43232f6288c2da3de5a90447f0cafed00
                 a919ff469b8d128f5101ed7f72a92c8c9834d0
             82/
                 bb258a72af0febf61ffacd1c54619cb4d628fd
                 c784093a561f0eff89557a66e42886b388f869
             83/
+                22c288555a58529917917f3550e612a430f2b4
+                3587528930f1bf6fb0859fef2112d5540089d7
+                5c4ab16b83ee4ca57a11e81834d3ac3add1bc1
                 8d5b0b3e6efda09fbd3231293120815c274ba8
             84/
                 6581f9dc837ce02fa1cb446db157548b3ae761
                 acbd78c23b42c7950d28ba762611432fcdc47f
+                b7a28b9f972330c68f775f05d06f3d19668cd1
                 ca565859dcf43a9903bb8040fdfb4d652d1e80
+            85/
+                1d97d2cfc8b012dc6d6128ecc7afe85c693e79
+                3ab46dcc01a65768d7d4e59a17d9aa8eee9de2
+                855e787ae940a4a75b00f3e990783e2819172f
+                b2234dba421fae3f6b1049201c51cc19584c0e
+                ee3267768c479f16629cd3ca16740186d6668b
             86/
                 06d7ac3fe4411a8520124cc2a7f19fea2266ad
+                8851258dc39ae56b55d6decfd4f0c464da9868
                 eeec988d71bc67b81249c5b074ddbdaa7f0406
             87/
+                d562c3da082e383587edb5c39ff9b9ed1a88ca
                 dee904201bc2c00a9a0715f63f99425174f6e0
             88/
                 369ccdd6b917bcd8a5e5a0dc4d0d8d423b4d63
+                3b44d67b6bf476d66304e41d3836b7b06a51e8
+            89/
+                55fdaca9da7097eabb2f9383ea3ac39eb45339
             8a/
                 142c147bef7c6111570c32ab57e779f239cdc7
+                d38c268ab956a54901ea00a23523c76e3323ff
                 d8f4fbcdff4ca7be37871651fbe77a4a8513ba
+                e312f9c88e72ed49390be65ecfc558fbdc4342
+                f2d85906613a1e89dffa97160309bad900bfee
+                f6a7425a5151d7853fa63a652c28c5e350d950
             8b/
+                21b8a102caea6769dba9ed3627f2f725734846
                 a5f83f744eb58f44bc1e072872fb25f1ef348b
+                b6b4009ad43bf76e959d1d0bf62c7f63cebdf0
+                ca910ef68ffdf1bdbee79e5b78222d46f9090c
+            8d/
+                44e97ca50ed188fa7c52b76e9d5beb349dc825
+                6438387fb6673c816a2989e530463c7295af75
             8e/
                 eb94beeca7e0f76aef89d91e29efed221221fb
+            8f/
+                8885aa5f640461c45c2716fd5b1d2bd8f70cd2
+                e164ae501bf9635ef35dac2fa43ce2a3fe8049
+            90/
+                d9050aaec6a1f5c067516e141bd9968c4d10b8
+            91/
+                621e5fdafa95148235e4c609653201805dcfef
+                717302c0179cad83b328350278a12cd3fb39e8
+                9908988b4b874c01b023427d7afc93bf6054c0
+                ac944d5b4b361b83b565ba95e0eca8164fb6c6
+            92/
+                3d45f7da760a63d2ce90df0be40e7ca14d6d18
+                53ca322e3c1a49a406be0d451e1fcd5d2c72ce
+                7adca39b6e3db14e0678eb8eb070704945caf9
             93/
+                28135ff9933188adafcd3e96373274be12afee
                 4e7cc702f233439fd811c5826d723ebc201fe3
+                602a7bbcf718ff87d1a06744483509c21bb73c
                 6606207bdc4440556ab7d6ebefad6f7f1159db
                 9808262bb704dd653b57bf30a5f245111cbd69
                 a3b9f6db406c84e270e19b9a5e70f2e27ca513
             94/
                 6fad16509a042ed438de42c3b2630d57a8dede
+                8dbdbedc342af9c33fb817308efd71823a1c18
             95/
                 4ba1fdfb87c393b24773bfa6c083343030003a
             96/
                 2dddeb00b9b24614738df0f898a34fc440a724
             97/
                 71ef2e90807c922bfd830935d86bbdc1e34e6c
+                944447d0bb561823e20e187a56ecc7be6e43a9
                 e7d96adb8c3b7cec206c76d2306e276407f2df
             98/
                 467d3a653ebad776ffa3542efeb9732fe0b482
             99/
+                2f2acbf99e8304cce6c70d05a49a0a7b889670
                 8016c454a732ea7495ffe01265907eca048c3f
+                94f3cc1dcbc0a8ef78bfbaf65dc84133c46bb5
+                ea5aec42f44e945b300d3d2ea6187fdfad5ee6
+            9b/
+                d10e4b6d9088f433007ab47f2a9c5b92ef6588
+                ea2a212abcc3f663f3419ab65fe009cd36d3af
+            9c/
+                ea3baccc99265134c4cd5161fc3059f5f2a4fb
             9d/
                 077fbe8acbf3a4eb8b2a837130778589d3475c
+                56221e4210d7d852c06514376af2a27d4e1716
                 fbe7f8312127726c46ac13d5ded0d50b229add
+            9e/
+                6ec57f806da46ae1b00b9b739b1d89fa7f63de
             9f/
+                0b0a84b9d487cb0a8c5a644b6c36015339c284
                 29d9d38f34bb4a566e73259badee8db7449189
+                8663c64bd5467202c5cada2d87279d75317535
                 88c1f9632445500e3b3688fe477b860f77d8f2
                 8b4cfb308c29a27f2935a6eaf9303e2b3dac2c
+            a0/
+                3fb7ee6f06368c8d97113dd91bcf43e1cadd45
+                756a9045b5e3b7b7f4008b66f5aafcb991b174
+                9845231d321e6019acc6da8cb5e5cbfb8f1850
+                dd3b20fb3862a40925d10aa0361de856608bee
+            a1/
+                2e588e0f4caf5c16fb83faa8e73f6e7eae1688
+                41b471a07252133e22086ed757d824441f92b6
+                a9220d804ed0eff51bcc86e22cba694cf80749
             a2/
                 6f9d2110522fbd2817d1abecd8d6d145c46698
+                d19435856adeaecceb7a4d136d09459af3278c
             a3/
                 a074cfd6f2a1f8f6590171df2d9d04fea90227
             a4/
                 e26e62c84e0a66c89d149bd6f797eaf70303f6
             a5/
+                9195c288afc9a8d293f0bae0e358e876954b16
+                dcbc584687dceb16efbcb33aba1edd66837728
                 e2d71f69715eaff6319fa7b38fabd9aac80480
             a6/
                 8aef4eef821b24364ae0c73a0d09b618744551
+            a7/
+                43be05b97f9be832b58beb9e997b923f6844cb
             a8/
+                1f644cd662bfdee9ababbe101776598262b0b1
+                8c5bd9b5f17af70ab9601a781388418e0b772f
                 9ceb6f30d88adc433dee087017a2872606f089
+                ff5e3cc74ea4a4f4d898de78e4427cb472855b
             a9/
+                2dffebf10406c51d35619b75b8ddc91c09c779
+                332f156b666b91e35416bf88919d5c081673d3
                 b1ee6e3b38f5fd69619f3cbf99d42dbf898b25
+            aa/
+                33c91ba84f5613a45b9707953facde20243ab7
+                810d1e80c4f1232ee7cbfe8d028b620f283147
+                b05eb0963da3faa59ac28c986c22e889f6b7c1
+                dfa584dac8ed08d3343ef00fd8ec159ee40c0c
             ab/
                 1d3d1a2740dc03365aebf15e68dc5771478bbd
+                fc81e3e7eb83e8b0f743f361ff849fd1dfb78e
             ac/
+                1e0791faa6817f641a73c336532255d0fb78c9
                 571ce36f43eb967a303de926079945b431b746
+                ef299fce36283d75ea9fb7655213963c8724d5
+                f65f08de0bf47c5bd8660c05a54ebd19ef7ea9
             ae/
+                2d82b070eaa4b40fbfc473b5c7c87121761832
+                49d123b58e9fd79eedd514c68aad54e612d1d1
                 bfcae113ec6ad6ab424f4d405b4a0eaff5c1c2
+                d3e7778bfc248b5fd68542bd8f5b1fa272ad67
             af/
+                77e20096f547d95bdd492434a703de0ea2b7af
                 89cba321c28857a40af3734a1e5cd289f67630
+                a9181c30b3148e3fe180627d5e27695d1b7082
                 c144f5095a3fa7220f628188ab8331a5244376
+            b0/
+                093f69b0ad9370119936a1de071bbc6b354dd3
+                ba27ce1010d4e0a41541e5fdd41af8a388cebc
+            b1/
+                43316c7a3af5be6231a00b0b00d4b4e68cf99f
+                a3e54317d2b5a5ddca7a606fcb81e36c01f27f
             b2/
+                465376589d9b5eb253bacee0a2ed8253aa38f5
+                8c4b17e824b0d83bf25e2af5fdde9cf94d1333
                 a59025c9ea59e31f7092710487de1ce232a6a9
             b3/
                 046d6146ef957940db6de1aedd4d8225298407
+                30fe45d74c362d21fa46f602a249e3148333ad
+                eb74b7bf9795125e081a15bdde0cf47e81f5ec
+            b4/
+                eb0f8f959fa3184bbe088e21d993e5b5e414c8
             b5/
                 65e6bbdf8ac56822b2fac057cf0e6fed6d17e4
+                84c264864fc762dcf9e15f08545f35385fb62d
                 8fe70d8e0981d2f3548166a382e10f7a975f13
+                ba6480e820f19be14f6ec1cd24d3e41effceeb
+                c6746ce1b91ae0120e88658c6829d4421203e1
+            b6/
+                4789877d966886de7a6cec107870a8180341cc
+                d1654892eb1a08f88cc4f57c8816193baab8d0
+                ed40c1f096d373c146466a487ad1b398ab9a74
             b7/
                 11c7d93a43345c36ce54802665880af64c9727
+                3049cb6ad2e6ac7b57c734a9073ea088a14689
                 dc8f40892a4420967108bdce7b92575c07d2c3
+                de6c3d9a934f95b9cdc01805ae55011145d8bf
+            b9/
+                c48e69ccd2e112a55b8a5bccdc8e26bb93c2a4
+            bb/
+                0d75db98d7df7ca6f212033ee8a678b1817a04
             bc/
+                1173732dfe0ebfc6be9d1ee9305f89fe24fd7f
                 59a53f8f03c31a4276ca69d621fa0092c160a2
+                78f47388abe27100c1a369df633513589d9e01
+                7e852326e8ae93d019b65785d274a2691b1d32
+                b89eeff60be7143515cbf7a4a456dc15fc9c69
                 f7428d87bc16db992397e291a4d1309d5ced74
+            be/
+                34c28bc4cf3e16d49cf02bcb5a2d6abcd24301
+                4d94954eae18d3191756626d402838efd1ced6
+            bf/
+                79f0ee59e04d19fabf748e193ce004a5288dff
+                9fbd7ffc1a5f7d68633cc7c161c3cbb67ad971
+            c1/
+                06384442843caea040dfc67b23b1d355d9a061
+                2401385db8defc8ef6901d097272c3a17f0d46
+                4e66b282816ae8d1feb199dfeb4a81f8fb456a
+                79f2586ef56bf455672ce848493f2503c91116
             c2/
                 40799c5065c9f9f7b6b197e4cb92b262b77a38
+                5241f966a4cc11c3a54217d649cf6b491782d5
+                71e5455585a7f6e102dd69e11c71a16b940940
+                75916748dc80ca2c36451f0305e25624f3f410
+                af02779448124915de6d8ca8e62653397faa6b
             c3/
+                1ef9f47d51ffb73202169fb82e5e03a3fe40bf
                 8169bb958579c635a5c09ee2f379cc5956c0c2
             c4/
                 95776889e1b3dec43a0920317e22c7538d340f
+            c5/
+                aba17be1f38ef7055f8b1fe70ba6ad1bf5d89a
             c6/
                 3a15f9384e206b4effa8e68061bb5be05cac85
+                3c89f72565603dc8972a7fb68c0c8fec938453
+                a513d1764a32662f3281856c7d3d8683beafdc
                 c391d53541bcff383025d5c6629a3d4123f227
+            c7/
+                5370804a6daa054974f271db3076e35d174340
+                a81ceb02b71effafad148ae508eb313c778e27
+                cbc6d34447d4a0a7d334cdce8dc36020070dba
+            c8/
+                278ad165b50bad4051017fc11a2a51637c1721
+            c9/
+                15b97e6d37badc57a62563b8a351594452aae6
+                5d575e54ca942ebeb3f7fdb14de7252d24c317
             ca/
                 27a4823a8e2c241ef4f06dd5c6d0e7806480ad
+                2ce0c80cfc70d52661dbfb474ef684cc0f57b6
                 685ee93fbf0ad3083fc51206b0070e92fce7f3
+            cb/
+                e5a2ee7b72bf02a458684f3fc065bd168884a6
+            cc/
+                0650e79e50a6c0752e3f4653acf0e9d0485ac3
+                2feb9c9d485283262412cef57c6078ccf04d0a
+                937831cdc20813a3dc2c8d8de7c30e374ee1ba
+            ce/
+                ce84fc92394f5c22b83dcb814a99d23c2b9f02
             cf/
                 7768c37f4e90e4c41738c0d80e7afccb349371
+                8e975ffd9bbe2579e39956aff4c7b6d2bb1120
+                9c543e7b77c936b56d260f8c9c83ead0ca06f0
+            d0/
+                7f6a2fdf0f76d91c168bd29331df1e4073b375
+                e519b5870a9d9f1a260a724b96d16b5e285a36
             d1/
+                11df3c6e6dfe5513470b936dcc4fdb2dc912da
+                5c10cb307f456c4db6d7c673ed3733cc688add
+                a033c4038110daf0f93d6ea4ab947331f5574f
                 a9e9f3de5a045577c752f7d7d6399287f12116
+                d96e707541f8a5afb285693c8a2c642735cb36
             d2/
                 372d1d2e93526da6b5948f1787c362790bd105
                 9246811b5128f70fdd6d65a025577831a90e94
+                ca73f58250f855501eb88a785c4204b9e67e68
+            d3/
+                2becc9652cc3dbc87b897f03d02030b60b6c80
+                4b0ef14f23582eeda54492bc6d17ddd909a170
+                55b0c36f12de0294af45ffd67ce24915567375
+                df33f49a2dff30bee604a529b9bce23d41be4e
             d4/
                 0e00c745927ffd0feeaa89bd2ef65c191714a8
+                c6c0c64c5b99405c41d8b873ffe1583b6fda59
             d5/
+                3be1f140014dfd53099c57517f60bd7583aeaf
                 b1656d0c0af5e99444f87c49a9ba7274fa41fc
                 fc3272811186e19209533f21e35ebc7fc73c6b
             d6/
                 3b5985b8cf0b806c21d021b3e1ad619171b199
                 45695673349e3947e8e5ae42332d0ac3164cd7
+                8288a0f678a4a10898f4d567329af36fc7008d
                 b7126a5ea5ce4fb5e52fd1fe25f1ad46a20ff2
                 d316c9162dfaee3c87a10d09950d95217b29ad
+            d7/
+                3ee5f046725b076d06e3cf7c160baa8df2b1b3
+            d8/
+                0713057325aa855867c2f24ae6ba79f79be3af
+                7468da66866133d34235323ddb325083bc8927
+                aeb2304b3c0a3e3884715c15af7ef0f20ca059
+                b1e998ec2f5f6aa5d9e8e50f587c26ee8b913f
+            d9/
+                373f1bba9e2d07957b6e2d63cd58e00eda50dd
+                6eb2d821d9cd6f0532ce60b2d9c9ad8b00b636
             da/
+                0cb13ba131baaad0200deec698645e689fee65
+                2d1176a6b905043cfdead1e917044a5209ae90
                 48ec0af826a06368ecb8b7185dd0ff5e1fe0a1
+                7c280d668e88ddf03a9c87823dd0115c228021
+                9302ff29a560b5f10d3184f25d699fe2d9c186
                 fd1727c890f4fda5d25cb09a61c9a08d10ad9c
             db/
                 22fa17368e8f87e539c92788efa25e9d4782f9
+                792e3606e88d4972cb557446f343eb3ecec675
+                a64e86d35c18560210cfb6bc37fda33107b0ef
+                f84978b36cd28961938819d711696ed34b572e
+            dc/
+                23c64c9eb67569c202c080f97dd48eb33b140c
+                de3397fcb42e8ca854e02dd0fc337e5a227e2e
             de/
+                061a4f1cb959181c6c12948a4cc0cf7a0c338e
                 38ff1a3d5cd48fc805848726380551108c6127
+                54b72969a41a88a4fa3afed4af28fccd347c9d
+                71e5e38edf9fce043498e8c5e0dee5a95c859e
+                88025459f1600b3d0da64eb3de4890a4619e5f
+            df/
+                dce88e94a1862dd3bf66fbecca85bf6165d4e5
             e0/
                 f15db2eb22b5d618150277e48b741f8fdd277a
+            e1/
+                d23e0f39325f9a21125edb6a81032ebed30dea
             e2/
+                0bfd167155aedab2c9066edbbba9dc7746fc75
                 380673447c76f01e6340a3482c48cb9c851ebe
+                454d7a58507ed3eb776eac3b0b096ef08fbb63
                 5a6bc951abf503d564319f082a30bd68fca99b
+                c9b8ca4895aff3c7f050bba9425c0a34df34ea
+                e244b2914b1d6614f817607f8b2d07349aacdb
             e3/
                 5e7f8ec7f78dd8f9e0bc95576656f04cd8b16f
+                69100b0b913aa01962b564e7fe9e5a4adf6e76
                 a916719e45df8d0c98f8f3b292fc9aa4d9f233
+                e9b78959f064124672a99d9638f048a9bf64e9
             e4/
                 d82674b97e302fcc4cf1df2204f7b6141a7206
             e5/
                 1c729bad1d65e8c2ddf557e0becf890f967a2c
             e6/
+                67c2ac90bfba6c0be8d2c7c360cd5fa8ef07e8
+                81089c65779577fbdb806ffd0ef2b6e6ac72ba
                 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+                be413411295ede7b3e46404dd875fabb0f6a5b
             e7/
                 20bae8f2f1c007cc153743bd878a1c25c2eb73
+                5503907e052eff8da0d12dd00e72258d6294ce
                 dca4d7da088fb63ccbb78da74eeb1ab51e6cda
             e8/
                 efa21857afd80f0082ba8ea7091d19b18f0e78
             e9/
                 03fd77fc375df8a98a3a25572981887cb68b95
+                2ce123fef6731475dafd5018e02dd1d7090cc9
                 2f777a5940d6d9b32677e36df7c100941a5d69
+                648aa26ebb05e66d69d9606ee4fe13396f0dac
+                9cec5d8002751294963d424114da56e19a7ff4
+                f4fb266ff8ef93f21039a7e7d01a71d707cd1f
+            ea/
+                1e80d8251dfa91377793410983e3c8ad337aa6
+                57b3ed97423c9ee3d5c1e90d13b6d5e690a5e0
+                dd36985991fe193c947a3fe502f533d9b9fc19
             eb/
                 19e77785aaad6ded9f2c4181de81e90e4f112a
+                2db63e1b5692b8153c3f5402794b35324717d0
                 83b70c6443c597a5c6b38ee18d35a7b70c8ef0
                 f99548f41cbe35750d9beb614f014768f0d32c
+            ec/
+                17c13269e969234cb952fb8e562ba9f9e91a52
+                63e6a7ce243884c9a126a19a4b740263d3b76c
+                8b975d667dc045cebb17dc39510beb89ae76ab
+                8fc2e090731a2dcc3c4f70208b41f9b412395b
+            ed/
+                090196633f4558ee0c3a3413c6cec84d63d6b7
+                4deb569eccd5ea5540e917e630a1dc1eade6a0
+                edfd393e4a6b3ef0b5bf3008a3824e6aa73240
+                f005a4ba651e2577d4e458e76aa62c16af0ea2
+            ee/
+                0e59021872087f9719d1f65b736fe7c0fc88e2
             ef/
                 c49f9d935f48a35acc86663c3efdbe36c44ade
             f0/
                 4620193d6c64d57c4f18da0d788e7d8331114a
             f1/
+                68e8e6e53cc5bbf2291a366103a630852df70c
                 6c88ab2ac56dbd51142e3c1813e1f4652a5d64
             f2/
                 c5586fe69d13fbccc05bd72af4cfc42a528dc9
             f3/
                 14b12eedcbd4b90090b16128817d4212b85097
+                e6372c21948bc2d70d0c3104aa7bb02420d746
+                e7ecd371416a5b11d716cc3d4d9942af1dde18
+                f5dceac9c8929ae8590c57f84bdc256b40bd68
+            f4/
+                8a3e0b536905fc0b5efc3519a06597a8dbfeef
+                a65ef129fac51ccc8beae794782bd428e3d7f8
+            f5/
+                2b8f62480e9c698cb629806c25adc85ce366b7
+                9a487827c088802afe5722d2b29f023098ea93
+                c92fbfb00b5354cf5bb71923309779e92b4acf
             f6/
+                048bedc7f451e9ed36c15108b7f87c87e54f1a
+                1680cdfc4fa6cb18f4888432ec4c1f0ae16280
                 359977c103b8442db845b9ea596a444d54ca96
+                50fbc94466537b9a5481149d7f99104f346d7b
+                626a8ac61a8d8d90b7aad27ef4a6bc941042b0
                 7695e64d77269ffda7d8c4ca5ddeb66bc84f23
                 f4cbe10f48356dbf22134799d0e472e912bb10
             f7/
                 2aeec8121cd72264a1be0b458f9a4e9d6841be
                 d10332eb6ff0f939d4eefa2ed2da76195e962f
+            f8/
+                790f290ff4b5584f6f53ff5fe443fb18d9cc1f
             f9/
                 475ad79631e8483ee8c84e6cf97f1d907e3744
+                6f118f2f8afde9a53d8105e4a312f6db50e688
+                cebd6876adae443ccc4326a5127ef9048f4ec5
             fa/
+                97417dd849cfc3f4ce7c39ed4ae9e33ac76c0d
+                9c216ac029aff30ce4b2a45c00f9ee4f6cab86
                 be7d4466b845045b28b611168a60d5637c68ae
                 f4ac1087d0afb22dccdff44aa3e004a2b01a6a
+            fb/
+                2b5abdc8fb69e3f7dc535d7815fb5a9223dcf5
+                d112251b2f827b958988b3156e8516e4a052ba
             fc/
                 007c1d2196623b11ee245c76be69a49fe9233b
                 4627f100b75f32088b45083afb2b0382b4d35d
                 51b1f385822c51b5c83d20ff33bca061d1199a
+                5715b0d6e7e8649f4afa38b8a04ace0637056b
+                5b6cbc519dd8337805ec82ae3b799fa20af6c2
+            fd/
+                91c941549150787a8388a87597ea2be6ab10e9
             fe/
                 1b9524599bc2335ace8730fd4cf75a95844662
+                1bba177d96459a61e4f929898b1968fdf70733
+                50828df083caa9368c02525c93775b47d3a5d1
+                65acaa41cccfc6256e94debe364e023cb90bfa
                 835cae3bf860b9e67adb8b72b6d2d164188c12
             ff/
+                62bb9d5cc784f01c63063b6a370e1a9ea8a62c
+                9a3ce580158b3135e6306e8e5cc1251977a781
                 a8d7cf4874f4ec3cfef14cdee84fb9f7dcc926
             info/
             pack/
@@ -401,22 +966,85 @@ eduverse/
         main/
             java/
                 com/
-                    example/
-                        eduverse/
-                            model/
-                                Book.java
-                            service/
-                                BookService.java
-                            servlet/
-                                BookServlet.java
-                            util/
-                                DatabaseConfig.java
-                                PasswordUtil.java
+                    eduverse/
+                        dao/
+                            BaseDAO.java
+                            BookDAO.java
+                            CartDAO.java
+                            UserDAO.java
+                            impl/
+                                BaseDAOImpl.java
+                                BookDAOImpl.java
+                                CartDAOImpl.java
+                                UserDAOImpl.java
+                        filter/
+                            securityFilter.java
+                        model/
+                            Book.java
+                            BookRating.java
+                            CartItem.java
+                            Purchase.java
+                            User.java
+                        service/
+                            BookService.java
+                            CartService.java
+                            PaymentService.java
+                            ReviewService.java
+                            UserService.java
+                            impl/
+                                BookServiceImpl.java
+                                CartServiceImpl.java
+                                PaymentServiceImpl.java
+                                ReviewServiceImpl.java
+                                UserServiceImpl.java
+                        servlet/
+                            AdminServlet.java
+                            AuthenticationServlet.java
+                            BookManagementServlet.java
+                            CartServlet.java
+                            PaymentServlet.java
+                            ReviewServlet.java
+                            UserRegistrationServlet.java
+                        util/
+                            CacheUtil.java
+                            DatabaseUtil.java
+                            EmailUtil.java
+                            FileUtil.java
+                            JWTUtil.java
+                            PasswordUtil.java
+                            SecurityUtil.java
+                            TestDataHelper.java
+                            TransactionManager.java
+                            ValidationUtil.java
             resources/
+                application.properties
+                log4j2.xml
+                sample_data.sql
                 schema.sql
             webapp/
                 css/
+                    admin.css
+                    bookCard.css
+                    cart.css
+                    forms.css
+                    index.css
+                    login.css
+                    main.css
+                    register.css
+                    style.css
+                    styles.css
+                images/
                 js/
+                    admin.js
+                    bookManagement.js
+                    cart.js
+                    index.js
+                    login.js
+                    payment.js
+                    register.js
+                    search.js
+                    upload.js
+                    validation.js
                 jsp/
                     admin.jsp
                     bookDetails.jsp
@@ -428,70 +1056,203 @@ eduverse/
                     index.jsp
                     login.jsp
                     processLogin.jsp
-                    processRegistration.jsp
                     processUpload.jsp
                     register.jsp
                     testConnection.jsp
                     uploadBook.jsp
                     viewsBooks.jsp
+                    admin/
+                        dashboard.jsp
+                        reports.jsp
+                        settings.jsp
+                    common/
+                        footer.jsp
+                        header.jsp
+                        navigation.jsp
+                    error/
+                        403.jsp
+                        404.jsp
+                        500.jsp
+                    payment/
+                        checkout.jsp
+                        confirmation.jsp
+                    user/
+                        profile.jsp
+                        settings.jsp
                 WEB-INF/
                     web.xml
         test/
             java/
+                HelloWorldTest.java
+                com/
+                    eduverse/
+                        service/
+                            BookServiceTest.java
+                            UserServiceTest.java
+            resources/
+                test.properties
     target/
         eduverse.war
         classes/
+            application.properties
+            log4j2.xml
+            sample_data.sql
             schema.sql
             com/
-                example/
-                    eduverse/
-                        model/
-                            Book.class
-                        service/
-                            BookService.class
-                        servlet/
-                            BookServlet.class
-                        util/
-                            DatabaseConfig.class
-                            PasswordUtil.class
+                eduverse/
+                    dao/
+                        BaseDAO.class
+                        BookDAO.class
+                        CartDAO.class
+                        UserDAO.class
+                        impl/
+                            BaseDAOImpl.class
+                            BookDAOImpl.class
+                            CartDAOImpl.class
+                            UserDAOImpl.class
+                    filter/
+                        securityFilter.class
+                    model/
+                        Book.class
+                        BookRating.class
+                        CartItem.class
+                        Purchase.class
+                        User.class
+                    service/
+                        BookService.class
+                        CartService.class
+                        PaymentService.class
+                        ReviewService.class
+                        UserService.class
+                        impl/
+                            BookServiceImpl.class
+                            CartServiceImpl.class
+                            PaymentServiceImpl.class
+                            ReviewServiceImpl.class
+                            UserServiceImpl.class
+                    servlet/
+                        AdminServlet.class
+                        AuthenticationServlet.class
+                        BookManagementServlet.class
+                        CartServlet.class
+                        PaymentServlet.class
+                        ReviewServlet.class
+                        UserRegistrationServlet.class
+                    util/
+                        CacheUtil.class
+                        DatabaseUtil.class
+                        EmailUtil.class
+                        FileUtil.class
+                        JWTUtil.class
+                        PasswordUtil.class
+                        SecurityUtil.class
+                        TestDataHelper.class
+                        TransactionManager.class
+                        ValidationUtil.class
         eduverse/
-            admin.jsp
-            bookDetails.jsp
-            bookList.jsp
-            editBook.jsp
-            editUser.jsp
-            error404.jsp
-            error500.jsp
-            index.jsp
-            login.jsp
-            processLogin.jsp
-            processRegistration.jsp
-            processUpload.jsp
-            register.jsp
-            testConnection.jsp
-            uploadBook.jsp
-            viewsBooks.jsp
+            css/
+                admin.css
+                index.css
+                login.css
+                register.css
+                style.css
+            js/
+                admin.js
+                index.js
+                login.js
+                register.js
+            jsp/
+                admin.jsp
+                bookDetails.jsp
+                bookList.jsp
+                editBook.jsp
+                editUser.jsp
+                error404.jsp
+                error500.jsp
+                index.jsp
+                login.jsp
+                processLogin.jsp
+                processUpload.jsp
+                register.jsp
+                testConnection.jsp
+                uploadBook.jsp
+                viewsBooks.jsp
+                error/
+                    403.jsp
+                    404.jsp
+                    500.jsp
             META-INF/
             WEB-INF/
                 web.xml
                 classes/
+                    sample_data.sql
+                    schema.sql
                     com/
-                        example/
-                            eduverse/
-                                util/
-                                    PasswordUtil.class
+                        eduverse/
+                            dao/
+                                BaseDAO.class
+                                BookDAO.class
+                                CartDAO.class
+                                UserDAO.class
+                                impl/
+                                    BaseDAOImpl.class
+                                    BookDAOImpl.class
+                                    CartDAOImpl.class
+                                    UserDAOImpl.class
+                            model/
+                                Book.class
+                                BookRating.class
+                                CartItem.class
+                                Purchase.class
+                                User.class
+                            servlet/
+                                UserRegistrationServlet.class
+                            util/
+                                DatabaseUtil.class
+                                PasswordUtil.class
+                                TestDataHelper.class
+                                TransactionManager.class
+                                ValidationUtil.class
                 lib/
-                    commons-fileupload-1.4.jar
-                    commons-io-2.2.jar
-                    commons-lang-2.6.jar
-                    commons-lang3-3.10.jar
+                    angus-activation-2.0.1.jar
+                    apiguardian-api-1.1.2.jar
+                    classmate-1.5.1.jar
+                    commons-fileupload-1.5.jar
+                    commons-io-2.15.1.jar
+                    commons-lang3-3.14.0.jar
                     commons-logging-1.2.jar
-                    hsqldb-2.5.0.jar
-                    jackcess-4.0.5.jar
+                    commons-text-1.11.0.jar
+                    fontbox-3.0.1.jar
+                    gson-2.10.1.jar
+                    hibernate-validator-8.0.1.Final.jar
+                    HikariCP-5.1.0.jar
+                    jackson-annotations-2.16.1.jar
+                    jackson-core-2.16.1.jar
+                    jackson-databind-2.16.1.jar
+                    jackson-datatype-jsr310-2.16.1.jar
+                    jakarta.activation-api-2.1.2.jar
+                    jakarta.el-api-5.0.1.jar
+                    jakarta.mail-2.0.2.jar
+                    jakarta.servlet-api-6.0.0.jar
+                    jakarta.servlet.jsp.jstl-3.0.1.jar
+                    jakarta.servlet.jsp.jstl-api-3.0.0.jar
+                    jakarta.validation-api-3.0.2.jar
                     jbcrypt-0.4.jar
-                    ucanaccess-5.0.1.jar
+                    jboss-logging-3.4.3.Final.jar
+                    junit-jupiter-5.10.1.jar
+                    junit-jupiter-params-5.10.1.jar
+                    logback-classic-1.4.14.jar
+                    logback-core-1.4.14.jar
+                    mysql-connector-j-9.2.0.jar
+                    pdfbox-3.0.1.jar
+                    pdfbox-io-3.0.1.jar
+                    protobuf-java-4.29.0.jar
+                    slf4j-api-2.0.9.jar
+                    stripe-java-24.9.0.jar
         generated-sources/
             annotations/
+        generated-test-sources/
+            test-annotations/
         maven-archiver/
             pom.properties
         maven-status/
@@ -502,5 +1263,16 @@ eduverse/
                         inputFiles.lst
                 testCompile/
                     default-testCompile/
+                        createdFiles.lst
                         inputFiles.lst
+        surefire-reports/
+            HelloWorldTest.txt
+            TEST-HelloWorldTest.xml
         test-classes/
+            HelloWorldTest.class
+            test.properties
+            com/
+                eduverse/
+                    service/
+                        BookServiceTest.class
+                        UserServiceTest.class
