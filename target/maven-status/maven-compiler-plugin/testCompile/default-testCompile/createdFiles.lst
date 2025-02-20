@@ -1,1 +1,3 @@
 HelloWorldTest.class
+com\eduverse\service\UserServiceTest.class
+com\eduverse\service\BookServiceTest.class
